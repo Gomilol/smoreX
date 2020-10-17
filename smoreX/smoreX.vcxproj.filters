@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\menu">
+      <UniqueIdentifier>{3160995e-fd72-42de-9190-a4430b56a260}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\config">
+      <UniqueIdentifier>{222eebb5-4dcd-44d6-958c-e16f977efdd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\menu\ImGui">
+      <UniqueIdentifier>{b1a6eb6f-7a0c-4283-ac7d-68415c846b33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\menu\smoreX-Functions">
+      <UniqueIdentifier>{56c39f26-e1c8-4d25-84c7-95124e159f61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\menu\initiation">
+      <UniqueIdentifier>{8ce4c6fd-bc4c-4266-9bc0-ce0e645a88cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\hook, helpers, drawing, &amp; offsets">
+      <UniqueIdentifier>{2cc68244-cb7b-4c34-b4d6-43c5e02e0bc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\hook, helpers, drawing, &amp; offsets\hook">
+      <UniqueIdentifier>{5821547c-564c-4678-9ecf-6a665bd6bd9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\hook, helpers, drawing, &amp; offsets\helper">
+      <UniqueIdentifier>{993d81b9-6860-4029-b7b6-e5945ae74f63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\hook, helpers, drawing, &amp; offsets\offsets">
+      <UniqueIdentifier>{4872b6b9-e67f-497e-86df-a500311a13a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\hook, helpers, drawing, &amp; offsets\drawing">
+      <UniqueIdentifier>{28a68b45-4f66-4494-86c6-b503e63bc6c9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="helper.cpp">
+      <Filter>Header Files\hook, helpers, drawing, &amp; offsets\helper</Filter>
+    </ClCompile>
+    <ClCompile Include="hook.cpp">
+      <Filter>Header Files\hook, helpers, drawing, &amp; offsets\hook</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.cpp">
+      <Filter>Header Files\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="config.cpp">
+      <Filter>Header Files\config</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>Header Files\menu\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_demo.cpp">
+      <Filter>Header Files\menu\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>Header Files\menu\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_opengl2.cpp">
+      <Filter>Header Files\menu\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp">
+      <Filter>Header Files\menu\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>Header Files\menu\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="init.cpp">
+      <Filter>Header Files\menu\initiation</Filter>
+    </ClCompile>
+    <ClCompile Include="offsets.cpp">
+      <Filter>Header Files\hook, helpers, drawing, &amp; offsets\offsets</Filter>
+    </ClCompile>
+    <ClCompile Include="functions.cpp">
+      <Filter>Header Files\menu\smoreX-Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="drawing.cpp">
+      <Filter>Header Files\hook, helpers, drawing, &amp; offsets\drawing</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="helper.h">
+      <Filter>Header Files\hook, helpers, drawing, &amp; offsets\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="hook.h">
+      <Filter>Header Files\hook, helpers, drawing, &amp; offsets\hook</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>Header Files\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>Header Files\config</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>Header Files\menu\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>Header Files\menu\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_opengl2.h">
+      <Filter>Header Files\menu\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_win32.h">
+      <Filter>Header Files\menu\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>Header Files\menu\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_rectpack.h">
+      <Filter>Header Files\menu\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_textedit.h">
+      <Filter>Header Files\menu\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_truetype.h">
+      <Filter>Header Files\menu\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="init.h">
+      <Filter>Header Files\menu\initiation</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.h">
+      <Filter>Header Files\hook, helpers, drawing, &amp; offsets\offsets</Filter>
+    </ClInclude>
+    <ClInclude Include="functions.h">
+      <Filter>Header Files\menu\smoreX-Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="drawing.h">
+      <Filter>Header Files\hook, helpers, drawing, &amp; offsets\drawing</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
