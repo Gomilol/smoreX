@@ -32,6 +32,7 @@ namespace cfg {
 
 	extern float JumpHeight;
 	extern float Smooth;
+	extern int selectedTheme;
 	extern int AmmoGrenade;
 	extern int selectedAimKey;
 	extern int SprintSpeed;

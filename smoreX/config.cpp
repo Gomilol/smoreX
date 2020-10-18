@@ -13,6 +13,7 @@ int cfg::SprintSpeed = 2;
 int cfg::AmmoGrenade = 1;
 int cfg::Damage = 100;
 int cfg::selectedAimKey = 0;
+int cfg::selectedTheme = 0;
 float cfg::Smooth = 1;
 float cfg::JumpHeight = 4.0f;
 const int cfg::fHeight = 15; 

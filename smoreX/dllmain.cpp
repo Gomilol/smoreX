@@ -34,10 +34,10 @@ DWORD __stdcall Thread(LPVOID param) {
 
     SwapBuffersHook.disable();
 
-    Sleep(100); 
+    Sleep(300); 
     smoreX.stop();
 
-    Sleep(500); 
+    Sleep(600); 
     FreeLibraryAndExitThread((HMODULE)param, 0);
 }
 

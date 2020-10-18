@@ -14,5 +14,10 @@ void Triggerbot();
 void Aimbot();
 void RapidFire();
 void SuperJump();
+void updateThemes();
+void OrangeTheme();
+void DarkTheme();
+void GrayTheme();
+void smoreXTheme();
 
 #endif

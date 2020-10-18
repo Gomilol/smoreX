@@ -33,4 +33,5 @@ void init::main() {
 	Aimbot();
 	RapidFire();
 	SuperJump();
+	updateThemes();
 }
