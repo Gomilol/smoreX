@@ -17,7 +17,7 @@ tSDL_ShowCursor SDL_ShowCursor = (tSDL_ShowCursor)offsets::showCursorAddr;
 
 static const char* aimKeys[]{ "RMB", "LMB", "LCtrl" };
 static const char* aimModes[]{ "Crosshair", "Distance" };
-static const char* Themes[]{ "smoreX", "Orange", "Black", "Gray", "ImGui Classic", "ImGui Dark", "ImGui Light" };
+static const char* Themes[]{ "smoreX", "Orange", "Black", "Gray", "ImGui Classic", "ImGui Dark", "ImGui Light", "Kix48-Theme" };
 static int selectedMode = 0;
 
 LRESULT __stdcall hWndProc(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam) {

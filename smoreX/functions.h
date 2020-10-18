@@ -19,5 +19,6 @@ void OrangeTheme();
 void DarkTheme();
 void GrayTheme();
 void smoreXTheme();
+void Kix48Theme();
 
 #endif

@@ -43,10 +43,10 @@ bool cfg::bName = true;
 bool cfg::bHealthbar = true;
 bool cfg::bTeamEsp = true;
 
-ImVec4 rgb::enemyBox = ImColor(242, 131, 12, 1);
-ImVec4 rgb::enemyBoxVisible = ImColor(255, 202, 79, 1);
-ImVec4 rgb::teamBox = ImColor(79, 255, 252, 1);
-ImVec4 rgb::text = ImColor(138, 138, 138, 26);
-ImVec4 rgb::snapline = ImColor(255, 48, 48, 1);
-ImVec4 rgb::healthBarBackground = ImColor(255, 105, 147, 1);
-ImVec4 rgb::healthBar = ImColor(0, 224, 153, 1);
+ImVec4 rgb::enemyBox = ImColor(236, 35, 35, 1);
+ImVec4 rgb::enemyBoxVisible = ImColor(255, 57, 57, 1);
+ImVec4 rgb::teamBox = ImColor(100, 149, 237, 1);
+ImVec4 rgb::text = ImColor(255, 255, 255, 1);
+ImVec4 rgb::snapline = ImColor(105, 105, 105, 1);
+ImVec4 rgb::healthBarBackground = ImColor(240, 128, 128, 1);
+ImVec4 rgb::healthBar = ImColor(152, 251, 152, 1);
