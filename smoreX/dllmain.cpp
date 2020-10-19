@@ -51,3 +51,12 @@ BOOL APIENTRY DllMain(HMODULE hModule,DWORD ul_reason_for_call, LPVOID lpReserve
     return TRUE;
 }
 
+
+// special thanks to https://github.com/Kix48/AssaultCube-Internal was helpful for helpers, drawing, offsets & menu theme
+// thanks to guidedhacking for helping me understand c++ more clearly
+
+// smoreX https://www.unknowncheats.me/forum/members/576479.html
+// Kix48-Theme https://guidedhacking.com/members/kix.87156/
+// Orange https://github.com/CookiePLMonster
+// Dark https://github.com/Derydoca
+// Grey https://github.com/malamanteau
