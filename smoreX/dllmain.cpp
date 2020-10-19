@@ -34,7 +34,7 @@ DWORD __stdcall Thread(LPVOID param) {
 
     SwapBuffersHook.disable();
 
-    Sleep(300); 
+    Sleep(400); 
     smoreX.stop();
 
     Sleep(600); 
